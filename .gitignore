@@ -1,0 +1,53 @@
+# IDEs and Editors
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
+*.swp
+*.swo
+nbproject/
+.project
+.classpath
+.settings/
+
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+
+# Compiled files
+*.class
+out/
+dist/
+
+# Logs
+logs/
+*.log
+log/
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Application properties
+**/src/main/resources/application-local.yml
+**/src/main/resources/application-local.properties
+
+# Other
+HELP.md
+.env
